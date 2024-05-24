@@ -1,3 +1,3 @@
-document.addEventListener("load", function () {
+document.addEventListener("onload", function () {
   document.getElementById("fadein").classList.add("active");
 });
