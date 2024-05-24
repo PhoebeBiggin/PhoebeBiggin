@@ -5,16 +5,16 @@ body {
 }
 
 #fadein {
-  opacity: 0;
+opacity: 0;
 }
 
 #fadein.active {
-  opacity: 1;
-  transition: opacity 1s ease;
+  opacity:1;
+  transition: opacity 1s ease; 
 }
 
 .dropdown:hover {
-  color: orange;
+  color:orange;
 }
 
 p {
@@ -25,6 +25,7 @@ p {
   font-size: 120%;
 }
 
+
 .home-content {
   height: 80%;
   margin: 0;
@@ -33,9 +34,10 @@ p {
 }
 
 .landing-hero {
-  position: absolute;
-  top: 30%;
+    position: absolute;
+    top: 30%;
 }
+
 
 .huge {
   font-family: "Montserrat", sans-serif;
@@ -49,12 +51,12 @@ p {
 }
 
 .link {
-  text-decoration: none;
-  color: black;
+    text-decoration: none;
+    color: black;
 }
 
 .link:hover {
-  color: orange;
+    color:orange;
 }
 
 .dropdown {
@@ -93,25 +95,25 @@ p {
 }
 
 .medium {
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 500;
-  font-style: italic;
-  font-size: 200%;
-  align-self: center;
-  padding-left: 2vw;
-  margin: 0;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 200%;
+    align-self: center;
+    padding-left: 2vw;
+    margin: 0;  
 }
 
 .heading {
   font-family: "Montserrat", sans-serif;
   display: flex;
-  font-optical-sizing: auto;
-  font-weight: 500;
-  font-style: italic;
-  font-size: 200%;
-  text-justify: center;
-  margin: 0;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 200%;
+    text-justify: center;
+    margin: 0;  
 }
 
 .small {
@@ -153,30 +155,31 @@ p {
 }
 
 .nomarg {
-  margin: 0;
+  margin: 0; 
 }
 
 .about-content {
-  position: absolute;
-  margin: 0;
-  bottom: 0;
-  height: 90%;
-  width: 100%;
-  display: flex;
+    position: absolute;
+    margin: 0;
+    bottom: 0;
+    height: 90%;
+    width: 100%;
+    display: flex;
+
 }
 .aboutme {
-  line-height: 140%;
-  position: absolute;
-  top: 15%;
-  left: 25%;
-  height: 50%;
-  width: 50%;
+    line-height: 140%;
+    position: absolute;
+    top: 15%;
+    left: 25%;
+    height: 50%;
+    width: 50%;
 }
 
 .content {
   position: absolute;
   width: 100%;
   height: 60vh;
-  margin: 0;
-  display: flex;
+    margin: 0;
+    display: flex;
 }
