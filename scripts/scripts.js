@@ -8,8 +8,6 @@ document.addEventListener("DOMContentLoaded", function () {
   }, 1500);
 });
 
-
-
 function revealProjects() {
   document.getElementById("projectHide").classList.toggle("on");
   document.getElementById("projectBtn").classList.toggle("off");
