@@ -5,16 +5,16 @@ body {
 }
 
 #fadein {
-opacity: 0;
+  opacity: 0;
 }
 
 #fadein.active {
-  opacity:1;
-  transition: opacity 1s ease; 
+  opacity: 1;
+  transition: opacity 1s ease;
 }
 
 .dropdown:hover {
-  color:orange;
+  color: orange;
 }
 
 p {
@@ -25,7 +25,6 @@ p {
   font-size: 120%;
 }
 
-
 .home-content {
   height: 80%;
   margin: 0;
@@ -34,10 +33,9 @@ p {
 }
 
 .landing-hero {
-    position: absolute;
-    top: 30%;
+  position: absolute;
+  top: 30%;
 }
-
 
 .huge {
   font-family: "Montserrat", sans-serif;
@@ -50,13 +48,70 @@ p {
   margin: 0;
 }
 
+.heading {
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 200%;
+  text-justify: center;
+  margin: 0;
+}
+
+.medium {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 200%;
+  align-self: center;
+  padding-left: 2vw;
+  margin: 0;
+}
+
+.regular {
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.small {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 100%;
+  align-self: center;
+  padding-left: 2vw;
+  margin: 0;
+}
+
+.underline {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#lightApp {
+  opacity: 0;
+  color: orange;
+  transition: opacity 2s ease-in;
+}
+
+#lightApp.active {
+  opacity: 1;
+}
+
 .link {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 .link:hover {
-    color:orange;
+  color: orange;
 }
 
 .dropdown {
@@ -94,39 +149,6 @@ p {
   color: orange;
 }
 
-.medium {
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: italic;
-    font-size: 200%;
-    align-self: center;
-    padding-left: 2vw;
-    margin: 0;  
-}
-
-.heading {
-  font-family: "Montserrat", sans-serif;
-  display: flex;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: italic;
-    font-size: 200%;
-    text-justify: center;
-    margin: 0;  
-}
-
-.small {
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 800;
-  font-style: normal;
-  font-size: 100%;
-  align-self: center;
-  padding-left: 2vw;
-  margin: 0;
-}
-
 .navi {
   margin: 0.3vw;
   padding: 1vw;
@@ -138,6 +160,23 @@ p {
   flex-direction: row;
   justify-content: space-between;
   height: 10%;
+}
+
+.btn {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 120%;
+  align-self: center;
+  margin: 0;
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
+
+.btn:hover {
+  color: orange;
 }
 
 .icon {
@@ -155,31 +194,74 @@ p {
 }
 
 .nomarg {
-  margin: 0; 
+  margin: 0;
 }
 
 .about-content {
-    position: absolute;
-    margin: 0;
-    bottom: 0;
-    height: 90%;
-    width: 100%;
-    display: flex;
-
+  top: 25vh;
+  position: absolute;
+  margin: 0;
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 .aboutme {
-    line-height: 140%;
-    position: absolute;
-    top: 15%;
-    left: 25%;
-    height: 50%;
-    width: 50%;
+  height: auto;
+  line-height: 140%;
+  position:relative;
+  justify-self: center;
+  align-self: center;
+  width: 50%;
 }
 
 .content {
   position: absolute;
   width: 100%;
-  height: 60vh;
-    margin: 0;
-    display: flex;
+  height: auto;
+  margin: 0;
+  display: flex;
+}
+
+#projectHide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.5s ease-in;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 120%;
+  align-self: center;
+  margin: 0;
+}
+
+#projectHide.on {
+  opacity: 1;
+  visibility: visible;
+}
+
+.wrapper {
+  position: relative;
+  justify-content: center;
+  align-content: center;
+}
+#projectBtn {
+  z-index: 1;
+  visibility:visible;
+}
+
+#projectBtn.off {
+  visibility: hidden;
+}
+.land { 
+  display: flex;
+  flex-direction: row;
+  width: 100%;
 }

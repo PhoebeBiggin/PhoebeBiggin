@@ -37,7 +37,7 @@
     <main id="fadein" class="about-content">
       <section class="aboutme">
         <p class="medium">About me:</p>
-        <p>
+        <p class="regular">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur,
           animi accusamus illo molestias rerum fuga accusantium impedit eveniet
           error? Sunt error eveniet quas recusandae molestiae nobis quo,
@@ -46,11 +46,20 @@
           aperiam in quod numquam, maiores ducimus totam ratione neque alias et
           odit debitis, placeat saepe?
         </p>
+        <div class="wrapper">
+          <button onclick="revealProjects()" id="projectBtn" class="btn"> View My Work </button>
+          <div id="projectHide">
+            <a href="module1.html" class="link" >Flatness Vs Projection</a>
+            <a href="module2.html" class="link" >Surface vs Pattern</a>
+            <a href="module3.html" class="link" >Frame vs Field</a>
+          </div>
+        </div>
       </section>
+    
     </main>
     <footer class="contact">
       <img class="icon" src="../images/mail.svg" />
-      <p>phoebe.biggin@student.unimelb.edu.au</p>
+      <p class="nomarg regular">phoebe.biggin@student.unimelb.edu.au</p>
     </footer>
     <script type="text/javascript" src="../scripts/scripts.js"></script>
   </body>
