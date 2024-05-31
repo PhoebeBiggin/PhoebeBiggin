@@ -33,6 +33,7 @@ p {
 }
 
 .landing-hero {
+  padding: 2%;
   position: absolute;
   top: 30%;
 }
@@ -44,7 +45,7 @@ p {
   font-weight: 800;
   font-style: normal;
   font-size: 600%;
-  padding: 0 0 0 2vw;
+  padding: 0 2 2 2vw;
   margin: 0;
 }
 
@@ -150,16 +151,15 @@ p {
 }
 
 .navi {
-  margin: 0.3vw;
-  padding: 1vw;
-  padding-top: 0;
+  margin: 2vw;
+  margin-top: 0.5vh;
 }
 
 .naviBox {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  height: 10%;
+  height: 8%;
 }
 
 .btn {
@@ -184,13 +184,16 @@ p {
   padding-right: 3mm;
 }
 .contact {
+  width: 100%;
+  background-color: white;
   display: flex;
   flex-direction: row;
   position: fixed;
   bottom: 0;
   align-self: flex-end;
+  font-size: 85%;
   padding: 1vw;
-  justify-content: center;
+  justify-content: left;
 }
 
 .nomarg {
@@ -198,7 +201,7 @@ p {
 }
 
 .about-content {
-  top: 25vh;
+  top: 20%;
   position: absolute;
   margin: 0;
   height: auto;
@@ -209,10 +212,25 @@ p {
 .aboutme {
   height: auto;
   line-height: 140%;
-  position:relative;
+  position: relative;
   justify-self: center;
   align-self: center;
   width: 50%;
+}
+.pfp {
+  width: 30%;
+  min-width: 4cm;
+  margin-bottom: 2vw;
+  border-radius: 50%;
+}
+
+.origin {
+  justify-content: center;
+}
+
+.imgHero {
+  margin: 1cm;
+  justify-self: center;
 }
 
 .content {
@@ -254,14 +272,78 @@ p {
 }
 #projectBtn {
   z-index: 1;
-  visibility:visible;
+  visibility: visible;
 }
 
 #projectBtn.off {
   visibility: hidden;
 }
-.land { 
+.land {
   display: flex;
   flex-direction: row;
   width: 100%;
+}
+
+.box {
+  margin-top: 1.5cm;
+  width: 100%;
+  height: 60vh;
+  background-color: lightcyan;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.imgbox {
+  margin: 2vw;
+  width: 50%;
+  height: 100%;
+  background-color: beige;
+}
+
+.box2 {
+  display: grid;
+  padding: 5%;
+  flex-direction: column;
+  text-align: center;
+  height: auto;
+  background-color: transparent;
+}
+
+.box3 {
+  display: flex;
+  padding: 5%;
+  flex-direction: row;
+  text-align: center;
+  height: 20vh;
+  background-color: transparent;
+}
+
+.end {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  height: 15vh;
+}
+
+.divide {
+  width: 50%;
+  height: 100%;
+  background-color: lightgoldenrodyellow;
+  background-position: bottom;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.montage {
+  text-align: center;
+  display: grid;
+  height: auto;
+}
+
+.imgMontage {
+  margin-top: 0;
+  margin-bottom: 0;
+  justify-self: center;
+  width: 60%;
 }
