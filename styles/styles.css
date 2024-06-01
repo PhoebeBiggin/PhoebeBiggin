@@ -220,6 +220,7 @@ p {
 .pfp {
   width: 30%;
   min-width: 4cm;
+  max-width: 5cm;
   margin-bottom: 2vw;
   border-radius: 50%;
 }
@@ -346,4 +347,17 @@ p {
   margin-bottom: 0;
   justify-self: center;
   width: 60%;
+}
+
+.sidemontage {
+  display: flex;
+}
+
+#smlImg {
+  width: 30%;
+  padding-top: 1cm;
+}
+
+#upImg {
+  padding-top: 1cm;
 }
