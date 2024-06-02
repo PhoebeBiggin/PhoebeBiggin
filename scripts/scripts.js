@@ -1,9 +1,11 @@
 document.addEventListener("DOMContentLoaded", function () {
-  document.getElementById("fadein").classList.add("active");
+  setTimeout(function () {
+    document.getElementById("fadein").classList.add("active");
+  }, 50);
 });
 
 document.addEventListener("DOMContentLoaded", function () {
-  setTimeout(function(){ 
+  setTimeout(function () {
     document.getElementById("lightApp").classList.add("active");
   }, 800);
 });
