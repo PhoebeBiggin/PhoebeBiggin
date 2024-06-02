@@ -169,6 +169,7 @@ p {
 }
 
 .btn {
+  color: #3C112C;
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
@@ -316,20 +317,27 @@ p {
   background-color: transparent;
 }
 
+#refl {
+  text-align: justify;
+  text-justify: distribute;
+  text-align-last: left;
+  
+}
+
 .box3 {
   display: flex;
   padding: 5%;
   flex-direction: row;
   text-align: center;
-  height: 20vh;
+  height: auto;
   background-color: transparent;
 }
 
 .end {
   display: flex;
   justify-content: space-around;
-  text-align: center;
-  height: 15vh;
+  text-justify: center;
+  height: 25vh;
 }
 
 .divide {
