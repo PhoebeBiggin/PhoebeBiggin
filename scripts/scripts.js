@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
 document.addEventListener("DOMContentLoaded", function () {
   setTimeout(function(){ 
     document.getElementById("lightApp").classList.add("active");
-  }, 1500);
+  }, 800);
 });
 
 function revealProjects() {
