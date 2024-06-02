@@ -1,7 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-  setTimeout(function () {
     document.getElementById("fadein").classList.add("okay");
-  }, 10);
 });
 
 document.addEventListener("DOMContentLoaded", function () {
