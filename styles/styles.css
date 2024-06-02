@@ -8,7 +8,7 @@ body {
   opacity: 0;
 }
 
-#fadein.active {
+#fadein.okay {
   opacity: 1;
   transition: opacity 1s ease;
 }
